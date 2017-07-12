@@ -55,6 +55,9 @@ TARGET_SCREEN_DENSITY := 420
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(COMMON_PATH)/config.fs
 
+# HIDL
+DEVICE_MATRIX_FILE := $(COMMON_PATH)/compatibility_matrix.xml
+
 # Kernel
 BOARD_KERNEL_IMAGE_NAME := Image.gz
 BOARD_KERNEL_BASE        := 0x00000000
