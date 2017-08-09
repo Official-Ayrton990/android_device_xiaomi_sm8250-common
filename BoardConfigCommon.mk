@@ -53,6 +53,9 @@ TARGET_KERNEL_APPEND_DTB := false
 # Display
 TARGET_SCREEN_DENSITY := 420
 
+# Filesystem
+TARGET_FS_CONFIG_GEN := $(COMMON_PATH)/config.fs
+
 # Kernel
 BOARD_KERNEL_IMAGE_NAME := Image.gz
 BOARD_KERNEL_BASE        := 0x00000000
