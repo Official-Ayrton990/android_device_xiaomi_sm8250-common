@@ -1,5 +1,0 @@
-type hal_fod_sm8250, coredomain, domain;
-hal_server_domain(hal_fod_sm8250, hal_lineage_fod)
-
-type hal_fod_sm8250_exec, exec_type, file_type;
-init_daemon_domain(hal_fod_sm8250)
