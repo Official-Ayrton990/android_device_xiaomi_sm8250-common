@@ -56,6 +56,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     init.recovery.qcom.rc
 
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    $(LOCAL_PATH)
+
 # Telephony
 PRODUCT_PACKAGES += \
     ims-ext-common \
@@ -68,3 +72,4 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_BOOT_JARS += \
     telephony-ext
+
