@@ -121,6 +121,10 @@ PRODUCT_BOOT_JARS += \
 # TextClassifier
 PRODUCT_PACKAGES += \
     textclassifier.bundle1
+
+# Vendor
+$(call inherit-product, vendor/xiaomi/lmi/lmi-vendor.mk)
+
 # WLAN
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wlan/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_qcom_cfg.ini
