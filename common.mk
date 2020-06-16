@@ -51,3 +51,8 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     fstab.qcom
+
+# Recovery ramdisk
+PRODUCT_PACKAGES += \
+    init.recovery.qcom.rc
+
