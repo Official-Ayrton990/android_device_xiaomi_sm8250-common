@@ -87,6 +87,10 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-lineage \
     WifiResTarget
 
+# Public Libraries
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/public.libraries-qti.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries-qti.txt
+
 # Recovery ramdisk
 PRODUCT_PACKAGES += \
     init.recovery.qcom.rc
