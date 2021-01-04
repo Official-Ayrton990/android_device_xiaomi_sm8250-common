@@ -43,6 +43,15 @@ PRODUCT_PACKAGES += \
     libspkrprot \
     libvolumelistener
 
+# DRM
+PRODUCT_PACKAGES += \
+    android.hardware.drm@1.0-impl \
+    android.hardware.drm@1.0-service \
+    android.hardware.drm@1.3-service.clearkey
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    drm.service.enabled=true
+
 # Init
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/fstab.qcom:$(TARGET_COPY_OUT_RAMDISK)/fstab.qcom
