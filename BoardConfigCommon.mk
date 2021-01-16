@@ -22,6 +22,9 @@ TARGET_2ND_CPU_VARIANT := cortex-a75
 # Bootloader
 TARGET_NO_BOOTLOADER := true
 
+# Broken rules
+BUILD_BROKEN_DUP_RULES := true
+
 # Device tree blob
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 BOARD_BOOTIMG_HEADER_VERSION := 2
