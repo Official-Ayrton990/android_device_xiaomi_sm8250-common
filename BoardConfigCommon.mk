@@ -5,6 +5,7 @@
 
 COMMON_PATH := device/xiaomi/sm8250-common
 
+TARGET_BOARD_PLATFORM := kona
 
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
