@@ -15,6 +15,9 @@ $(call inherit-product-if-exists, vendor/xiaomi/sm8250-common/sm8250-common-vend
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
+# API
+PRODUCT_SHIPPING_API_LEVEL := 29
+
 # AID/fs configs
 PRODUCT_PACKAGES += \
     fs_config_files
